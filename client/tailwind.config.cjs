@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         red: '#F5385D',
       },
+      fontWeight: {
+        semimedium: 450,
+      },
     },
   },
   plugins: [],
