@@ -26,7 +26,7 @@ export default function Header() {
         </button>
       </div>
       {/* Hamburger and user icons */}
-      <Link to={"/login"} className='flex border border-gray-300 h-12 items-center rounded-full p-3 gap-5 transition duration-150 ease-out shadow-md hover:shadow-gray-40'>
+      <Link to={"/login"} className='flex border border-gray-300 h-12 items-center rounded-full p-3 gap-5 transition duration-150 ease-out shadow-md hover:shadow-gray-400'>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
