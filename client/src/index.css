@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-input[type="text"], input[type="password"], input[type="email"] {
-    @apply w-full px-2 border-gray-300; 
+input[type="text"], input[type="password"], input[type="email"]  {
+    @apply w-full px-2 focus:outline-none; 
 }
 
+
 button.login {
+    @apply w-full bg-red text-white py-2 px-2 rounded-xl;
+}
+
+button.register {
     @apply w-full bg-red text-white py-2 px-2 rounded-xl;
 }

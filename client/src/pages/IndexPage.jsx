@@ -1,7 +1,7 @@
 export default function IndexPage() {
   return (
     <div>
-        "AAAAAAA"
+        "main page"
     </div>
   )
 }
