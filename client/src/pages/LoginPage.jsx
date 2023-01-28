@@ -12,7 +12,8 @@ export default function LoginPage() {
                     <button className="p-2 login" type="submit">Login</button>
                     <div className="text-center mt-4 font-semibold text-gray-500 ">
                         No account? <Link className="hover:border-b-2 underline text-black hover:text-[#f5385d] " to={'/register'}>Register now!</Link>
-
+                    {/* add forgot password */}
+                    {/* add captcha */}
                     </div>
                 </form>
             </div>
