@@ -7,9 +7,11 @@ export default function RegisterPage() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
+    
+    
     function registerUser(ev) { 
         ev.preventDefault();
-        if (password === confirmPassword) {
+        if (password === confirmPassword ) { //check if email is already in use
             axios.post('/register', {
                 firstName: firstName,
                 lastName: lastName,
